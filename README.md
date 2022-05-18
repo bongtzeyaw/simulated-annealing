@@ -1,5 +1,5 @@
 # Overview
-A project of Ocaml Programming to implement Taboo Research (or Simulated Annealing), one of the fundamental meta-heuristic methods. The goal is to find the solution to a classic problem of optimisation, Airport Gate Allocation problem.
+A project of Ocaml Programming to implement Simulated Annealing (or Taboo Research), one of the fundamental meta-heuristic methods. The goal is to find the solution to a classic problem of optimisation, Airport Gate Allocation problem.
 
 # Modelisation
 A gate is only compatible with certain types of aircraft. Suppose that we have n gates, a solution of Airport Gate Allocation Problem is characterised by n sequences of flights, separated in time with at least a time minimum separation. 
