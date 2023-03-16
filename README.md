@@ -1,8 +1,8 @@
-# Data collection
-The data is collected at a sampling rate of 16kHz.
+# Overview
+A project of Ocaml Programming to implement Simulated Annealing (or Taboo Research), one of the fundamental meta-heuristic methods. The goal is to find the solution to a classic problem of optimisation, Airport Gate Allocation problem.
 
-# No thief
-Corresponds to the environment sound of the fruit farm.
+# Modelisation
+A gate is only compatible with certain types of aircraft. Suppose that we have n gates, a solution of Airport Gate Allocation Problem is characterised by n sequences of flights, separated in time with at least a time minimum separation. 
 
-# Thief
-Corresponds to the sound events that are considered as thief event. The six subclasses are walk, indicated by "歩く音" in file name; leaf rebound "葉の跳ね返り"; fruit shake "もも_音"; car stop "停車音"; cut "切る", truck stop "トランク占める"
+# Simulated annealing
+A new solution can be created by either swapping two sub-sequences of flight of fixed length (while assuring gate compatibility) or doing the same for variable length. The evaluation of solution can be either the sum of all time gaps or the minimum of the minimum time gaps for each sequence of flight. These different options have different impacts on the quality of the solution.
